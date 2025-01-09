@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabecalhoPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #000;
+    height: 5em;
+}
+
+.cabecalhoPrincipal h1{
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.cabecalhoPrincipal nav ul {
+    display: flex;
+}
+
+.cabecalhoPrincipal nav ul li a{
+    margin-left: 2em;
+    color: #fff;
+    font-size: 1.2em;
+    transition: all ease 0.6s;
+}
+
+.cabecalhoPrincipal nav ul li a:hover{
+    color: #6e6301;
+    transition: all ease 0.6s;
+}
+
+.tres-primeiras{
+    height: 85vh;
+    max-height: 56.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.etapas{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.revolucoes h2{
+    margin-bottom: 1em;
+}
+
+.revolucoes p{
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    max-width: 40em;
+}
+
+.imgsTresPrimeiras .descricao-imgs{
+    font-size: 1.6em;
+    margin-bottom: 0.4em;
+    text-transform: uppercase;
+}
+
+.imgsTresPrimeiras img{
+    border-radius: 8px;
+    width: 50em;
+    height: 25em;
+    object-fit: cover;
+}
+
+.diferencas{
+    height: 90vh;
+    max-height: 56.25rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diferencas h3{
+    font-size: 2.2em;
+}
+
+.diferencas-conteudo{
+    display: flex;
+    gap: 5em;
+}
+
+ .conteudo-das-diferencas h4{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;    
+}
+
+.conteudo-das-diferencas p{
+    font-size: 1.2em;
+}
+
+
+.quarta{
+    height: 90vh;
+    max-height: 56.25rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: url(../imagens/quarta.webp);
+}
+
+.corpo-acordeon{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+}
+
+.acordeon{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.cabecalho{
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    background: transparent;
+    margin-bottom: 0.5em;
+    display: flex;
+    cursor: pointer;
+}
+
+.cabecalho span{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.corpo{
+    color: #444;
+    font-size: 1.1em;
+    opacity: 0;
+    height: 0;
+}
+
+.corpo.ativo{
+    height: 100%;
+    opacity: 1;
+    padding: 1em;
+}
+
+.quinta{
+    height: 90vh;
+    max-height: 56.25rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.quinta-rev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.quinta-rev h4, .empresas h5{
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-quinta p, .empresas p{
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 72em;
+}
+
+.imagens-empresas img{
+    width: 10em;
+    height: 7em;
+    object-fit: cover;
+    margin: 4em 2em 0 2em;
+    border-radius: 1em;
+    transition: all ease 0.5s;
+}
+
+.imagens-empresas img:hover{
+    transform: scale(1.1);
+}
