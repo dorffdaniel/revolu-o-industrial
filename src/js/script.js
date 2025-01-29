@@ -37,3 +37,4 @@ let navList = document.querySelector('.nav-list');
 btnHamburguer.addEventListener('click', ()=>{
     navList.classList.toggle('ativo');
 });
+
