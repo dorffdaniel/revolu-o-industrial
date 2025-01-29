@@ -29,4 +29,11 @@ acordeons.forEach(items =>{
            corpo.classList.remove('ativo') 
         }, 6000);
     })
-})
+});
+
+const btnHamburguer = document.querySelector('.hamburguer');
+let navList = document.querySelector('.nav-list');
+
+btnHamburguer.addEventListener('click', ()=>{
+    navList.classList.toggle('ativo');
+});
