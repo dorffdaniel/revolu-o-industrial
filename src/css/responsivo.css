@@ -1,3 +1,85 @@
+@media (min-width: 400px) and (max-width:599px){
+    .cabecalhoPrincipal{
+        width: 100%;
+    }
+
+    .hamburguer{
+        display: block;
+        position: absolute;
+        right: 1em;
+        z-index: 1;
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 70vw;
+        justify-content: space-around;
+        background: #444;
+        opacity: 0;
+    }
+
+    .nav-list li {
+        font-size: 0.7em;
+    }
+
+    .nav-list.ativo{
+        opacity: 1;
+    }
+
+    .tres-primeiras{
+        flex-direction: column;
+        width: 100%;
+        text-align: center; 
+    }
+
+    .revolucoes:nth-child(1){
+        margin-top: 0.7em;
+    }
+
+    .imgsTresPrimeiras {
+        display: none;
+    }
+
+    .diferencas-conteudo{
+        flex-direction: column;
+        gap: 1em;
+        text-align: center;
+    }
+
+    .conteudo-das-diferencas h4{
+        font-size: calc(1vw + 0.9em);
+    }
+
+    .corpo-acordeon{
+        align-items: center;
+        width: 0;
+    }
+
+    .acordeon{
+        width: 20em;
+    }
+
+    .diferencas h3, .quinta-rev h4, .empresas h5{
+        font-size: calc(1vw + 1.4em);
+        margin-top: 1em;
+    }
+
+    .imagens-empresas{
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .imagens-empresas img{
+        width: 9em;
+    }
+
+}
+
 @media (min-width: 600px) and (max-width: 799px){
     .cabecalhoPrincipal h1{
         font-size: calc(1vw + 1em);
